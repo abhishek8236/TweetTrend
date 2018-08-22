@@ -53,10 +53,9 @@ def main():
     #################################################################
     try:
         twitter_stream = Stream( auth, TweetsListener() )
-        twitter_stream.filter( track=['#trump'] )
-        #twitter_stream.user_stream()
-        #twitter_stream.filter(async=True )
-        #twitter_stream.filter(locations=ams_region )
+        #twitter_stream.filter( track=['#trump'] )
+        #twitter_stream.filter( locations=ams_region )
+        twitter_stream.sample()
     except BaseException as e:
         print( "Streaming Stopped")
 
