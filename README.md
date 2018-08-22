@@ -9,7 +9,7 @@ A Project to stream the tweeter data to s3\localdirectory\kafka\kinesis and anal
 
 * Python + tweepy preinstalled  (if pip installed: ‘pip install tweepy’)
 
-* Spark Server
+* Spark cluster
 
 * Hadoop cluster if plan to use Hive, Pig
 
