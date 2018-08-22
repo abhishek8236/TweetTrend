@@ -46,7 +46,7 @@ def main():
     auth.set_access_token(access_token, access_secret)
     
     delhi_region = [28.5251,76.5539,28.2422,77.2521]
-    ams_region = [52.37,4.89,52.07,4.28]
+    ams_region = [4.768552,52.316867,5.008689,52.422521]
     nj = [-76,38.5,-73.5,41.5]
     ####################################################################
     #Ref: https://boundingbox.klokantech.com/
